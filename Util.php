@@ -59,7 +59,7 @@ abstract class Util
         }
         return $post;
     }
-
+    
     public static function corta($str, $left, $right)
     {
         $str = substr ( stristr ( $str, $left ), strlen ( $left ) );
